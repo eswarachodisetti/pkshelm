@@ -1,0 +1,15 @@
+# Default values for poc.
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+replicaCount: 1
+
+image:
+  repository: docker.io/dhanapodigiri/poclistener 
+  tag: "1.0"
+  pullPolicy: Always
+
+imagePullSecrets: 
+- name: "poccred"
+nameOverride: "pkshelm"
+fullnameOverride: "pkshelm"
