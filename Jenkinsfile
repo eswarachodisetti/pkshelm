@@ -16,7 +16,7 @@ pipeline {
 
                sh 'jx step helm apply --name pkshelm'
        //  sleep 120
-           sh 'jx step helm install --name=pkshelm pkshelm'
+       //    sh 'jx step helm install --name=pkshelm pkshelm'
         //       sh 'jx step helm apply'
         
        
